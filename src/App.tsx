@@ -1,10 +1,13 @@
 import "./App.css";
-import PostList from "./components/PostList";
+import ToDoFOrm from "./components/ToDoFOrm";
+import ToDoList from "./components/ToDoList";
 
 function App() {
   return (
     <div>
-      <PostList />
+      <ToDoFOrm />
+      <ToDoList />
+      {/* <PostList /> */}
     </div>
   );
 }
