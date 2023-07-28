@@ -1,5 +1,6 @@
 import React from "react";
-import usePost from "../hooks/usePost";
+import usePost from "../hooks/usePOst";
+
 
 const PostList = () => {
   const pageSize = 10;

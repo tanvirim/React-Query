@@ -26,7 +26,7 @@ const usePost = (query: PostQuery) =>
     staleTime: 1 * 60 * 1000, //1 min
     keepPreviousData: true,
     getNextPageParam: (lastPage, allpages) => {
-      return lastPage.length > 0 ? allpages.length + 1 : undefined;
+      return allpages.length > 0 ? allpages.length + 1 : undefined;
     },
   });
 
