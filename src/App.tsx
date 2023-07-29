@@ -1,7 +1,8 @@
 import "./App.css";
 // import ToDoFOrm from "./components/ToDoFOrm";
 // import ToDoList from "./components/ToDoList";
-import Counter from "./state-management/Counter";
+
+import TaskList from "./state-management/TaskList";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <ToDoList /> */}
       {/* <PostList /> */}
 
-      <Counter/>
+      {/* <Counter/> */}
+      <TaskList/>
     </div>
   );
 }
